@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+html, body{
+  font-size: 18px;
+  background: #f5f6f7;
+}
+
+h1{
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+.contenedor1{
+
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and(min-width: 786px){
+  .App{
+      flex-direction: row;
+  }
+}
